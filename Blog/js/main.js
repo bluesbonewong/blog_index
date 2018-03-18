@@ -1,6 +1,7 @@
 // 配置require.js
 requirejs.config({
 	baseUrl: "js/lib",
+	waitSeconds: 200,
 	shim: {
 		// shim 的英文含义是做兼容性处理
 		// 如果，需要require shim-0 模块，会先加载shim-1
