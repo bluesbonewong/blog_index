@@ -1,6 +1,6 @@
 console.log('loading gotop down')
 
-define(function () {
+module.exports = (function () {
 	let _GoTop = function () {
 		this.createElement()
 		this.bind()
@@ -38,5 +38,5 @@ define(function () {
 			new _GoTop()
 		}
 	}
-})
+})()
 

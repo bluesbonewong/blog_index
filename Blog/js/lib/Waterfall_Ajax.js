@@ -10,7 +10,7 @@
 
 console.log('loading waterfull down')
 
-define(function () {
+module.exports = (function () {
 	let _Waterfall = function (container) {
 		this.ct = container
 		this.init()
@@ -130,7 +130,7 @@ define(function () {
 			}
 		}
 	}
-})
+})()
 
 
 
